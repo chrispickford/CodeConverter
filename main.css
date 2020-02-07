@@ -1,0 +1,29 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+}
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.converter {
+  flex-grow: 1;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.converter > textarea {
+  flex-grow: 1;
+  font-size: 1.5em;
+}
+.converter > button {
+  flex-shrink: 1;
+  font-size: 2em;
+}
